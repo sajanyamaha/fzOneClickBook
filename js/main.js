@@ -71,6 +71,10 @@ $(document).ready(function(){
 		}
 	});
 
+	$('.more-nxt-another').on('click', function (e) {
+	    location.reload();
+	});
+
     //animate hash links on small screens
 	$('.more-nxt').on('click', function (e) {
 	    if ($(window).width() <= minOnepageW) {
