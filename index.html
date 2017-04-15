@@ -1,0 +1,188 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<!-- Mirrored from designawatch.okmylo.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 27 Mar 2017 06:51:04 GMT -->
+<head>
+  <meta charset="utf-8">
+  <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1' /><![endif]-->
+  <title>FZ-One Click Book</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="flydubai one click booking app">
+  <meta property="og:title" content="one click book">
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:description" content="flydubai one click booking app" />
+  <meta property="og:image" content="img/m-logo.jpg" />
+  <meta property="og:url" content="index.html" />
+  <meta name="google-site-verification" content="-e5aD7T4mhDGmBnmp5rvjAgPV_yc_9l8U" />
+  <!--authorship-->
+  <link rel="author" href="sajanyamaha@yahoo.com"/>
+  <!--stylesheets-->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!--icons-->
+  <link rel="icon" href="img/favicon.png" type="image/png" />
+  <link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-precomposed.png"> 
+  <link rel="apple-touch-icon-precomposed" sizes="72x72"   href="img/apple-touch-icon-72x72-precomposed.png"> 
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon-114x114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/apple-touch-icon-144x144-precomposed.png">
+  <!--scripts-->
+  <script>var siteURL = 'index.html';</script>
+  <!--[if lt IE 9]>
+    <script src="http://designawatch.okmylo.com/js/html5shiv.js"></script>
+    <script src="http://designawatch.okmylo.com/js/respond.min.js"></script>
+  <![endif]-->
+  <script src="js/jquery-1.9.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/typed.min.js"></script>
+  <script src="js/snap.svg-min.js"></script>
+  <script src="js/jquery.onepage-scroll.min.js"></script>
+  <script src="js/main.js"></script>
+</head>
+<body>
+<header class="watch-header">
+  <div class="container" style="visibility:hidden">
+    <a href="http://mijlo.com/" class="logo" title="MIJLO"><i class="mi mi-logo"></i></a>
+    <button type="button" class="info"><i class="mi mi-info"></i></button>
+  </div>
+</header>
+<div class="watch-info">  
+  <button type="button" class="info-close"><i class="mi mi-close"></i></button>
+  <h2>Edit menu<br/></h2>
+  <div class="watch-info-inner">
+    <p>This would be the edit menu for all sections like,change date,change seat,change meal,change card,print BP etc. </p>
+    <p>This is a prototype , for more details contact <b>sajansj</b> at <tel>+971502945342</tel> or email at <email>sajan.sulaikha@flydubai.com</email></p>
+  </div>
+</div>
+<form id="watch-form" class="main container" method="post">
+        <section class="watch-section watch-intro firstBlock">
+            <div class="watch-inner">
+                <header>
+                    <h1>Hey Ramesh, <span class="watch-name-typed"></span>:<br /><a style="background-color:#333f62;border:3px solid #333f62" href="#2" data-index="2" id="sel-dest" class="btn btn-default more-nxt">Click 'n' Relax</a></h1>
+                    <h2>Oh wait,you are on a vacation , Change destination ? <a href="#" class="info">Change it</a></h2>
+                    <!--<button id="email-submit" type="submit" class="btn btn-default">Edit</button>-->
+                </header>
+            </div>
+        </section>
+        <section class="firstwait firstwaitoverlay" style="display:none">
+        <a href="#2" class="more" data-index="2">
+            <span class="more-text msg-overlay-cen">looking for best day to travel..</span>
+            <img src="img/block-loading.gif" class="img-overlay-cen" />
+            <!--<i class="mi mi-more-arr"></i>-->
+        </a>
+        </section>
+
+        <section class="watch-section watch-intro  forDay typeForDate" id="faces" style="display:none">
+            <div class="watch-inner">
+                <header>
+                    <h1>Ok, <span class="typeForDate-TypeArea"></span>:<br /><!--<button style="background-color:#333f62;border:3px solid #333f62" id="sel-dest" type="submit" class="btn btn-default">Oh yeah</button>--></h1>
+                    <h2>Oh I see,you wanna change the dates ? <a href="#" class="info">Yes please</a></h2>
+                </header>
+            </div>
+            <a href="#3" class="more" data-index="3"><i class="mi mi-more-arr"></i></a>
+        </section>
+    <section class="forDay wait"  style="display:none">
+        <a href="#2" class="more" data-index="2">
+            <span class="more-text msg-overlay-cen">Finding you a nice seat..</span>
+            <img src="img/block-loading.gif" class="img-overlay-cen" />
+            <!--<i class="mi mi-more-arr"></i>-->
+        </a>
+    </section>
+    <section class="watch-section watch-intro  forDay typeForSeat" id="facesy" style="display:none">
+        <div class="watch-inner">
+            <header>
+                <h1>Ok,<span class="typeForSeat-TypeArea"></span>:<br /><!--<button style="background-color:#333f62;border:3px solid #333f62" id="sel-dest" type="submit" class="btn btn-default">Oh yeah</button>--></h1>
+                <h2>Oh I see,you wanna change the dates ? <a href="#" class="info">Yes please</a></h2>
+            </header>
+        </div>
+        <a href="#3" class="more" data-index="3"><i class="mi mi-more-arr"></i></a>
+    </section>
+
+    <section class="forDay wait" style="display:none">
+        <a href="#2" class="more" data-index="2">
+            <span class="more-text msg-overlay-cen">Fetching you the meal menu..</span>
+            <img src="img/block-loading.gif" class="img-overlay-cen" />
+            <!--<i class="mi mi-more-arr"></i>-->
+        </a>
+    </section>
+    <section class="watch-section watch-intro  forDay typeForMeal" id="facesdty" style="display:none">
+        <div class="watch-inner">
+            <header>
+                <h1>Yummy,<span class="typeForMeal-TypeArea"></span>:<br /><!--<button style="background-color:#333f62;border:3px solid #333f62" id="sel-dest" type="submit" class="btn btn-default">Oh yeah</button>--></h1>
+                <h2>Hmmm,you got some sweet tooth now ? <a href="#" class="info">Order it</a></h2>
+            </header>
+        </div>
+        <a href="#3" class="more" data-index="3"><i class="mi mi-more-arr"></i></a>
+    </section>
+
+    <section class="forDay wait" style="display:none">
+        <a href="#2" class="more" data-index="2">
+            <span class="more-text msg-overlay-cen">Starting payment process..</span>
+            <img src="img/block-loading.gif" class="img-overlay-cen" />
+            <!--<i class="mi mi-more-arr"></i>-->
+        </a>
+    </section>
+    <section class="watch-section watch-intro  forDay typeForCard" id="facesty" style="display:none">
+        <div class="watch-inner">
+            <header>
+                <h1>Now,<span class="typeForCard-TypeArea"></span>:<br /><!--<button style="background-color:#333f62;border:3px solid #333f62" id="sel-dest" type="submit" class="btn btn-default">Oh yeah</button>--></h1>
+                <h2>Its ok,you can use your vouchers as well or paylater ? <a href="#" class="info">Use Voucher</a></h2>
+            </header>
+        </div>
+        <a href="#3" class="more" data-index="3"><i class="mi mi-more-arr"></i></a>
+    </section>
+
+    <section class="forDay wait" style="display:none">
+        <a href="#2" class="more" data-index="2">
+            <span class="more-text msg-overlay-cen">Done,boarding pass on the way..</span>
+            <img src="img/block-loading.gif" class="img-overlay-cen" />
+            <!--<i class="mi mi-more-arr"></i>-->
+        </a>
+    </section>
+    <section class="watch-section watch-suggestions forDay typeForPnr" id="suggestions" style="display:none">
+        <div class="watch-inner">
+            <div class="suggestions-wrap">
+                <header>
+                    <h2>Any other suggestions?</h2>
+                    <h3>We’d love to hear them</h3>
+                </header>
+                <div class="suggestions">
+                    <textarea name="watch-suggestions"></textarea>
+                    <input type="text" name="human-check" class="human-check" value="" />
+                    <button id="watch-submit" type="submit" class="btn btn-primary btn-lg">Submit All</button>
+                </div>
+                <div class="form-submitted">
+                    <div class="center-container">
+                        <div class="center-me">
+                            <div style="padding-left: 27%;font-weight:bold;"><h2>XD5RTG</h2></div>
+                            <p>Thank you for flying with flydubai.You can now use Web-Checkin to avoid long queues at the airport.Please call up our call-centre at +971-423525262 for amendments or 
+                            cancellations or visit your nearest flydubai travel agent.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</form><!--end main-->
+<footer class="footer">
+  <div class="container">
+    <div class="row">  
+        <div class="col-md-3" style="visibility:hidden">
+            <h2 class="footer-title">Buy on Kickstarter</h2>
+        </div>
+        <div class="col-md-5" >
+            <p class="footer-content">This is a prototype , for more details contact <b>sajansj</b> at <tel>+971502945342</tel> or email at <email>sajan.sulaikha@flydubai.com</email></p>
+        </div>
+    </div>
+  </div>
+</footer>
+<!--google analytics-->
+<script>
+  //(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  //(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  //m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  //})(window,document,'script','../www.google-analytics.com/analytics.js','ga');
+  //ga('create', 'UA-45688326-1', 'mijlo.com');
+  //ga('send', 'pageview', '/-sub-designawatch');
+</script>
+</body>
+</html>

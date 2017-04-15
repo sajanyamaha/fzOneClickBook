@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.phonegap.example"
+    versionCode = "10"
+    version     = "1.0.0" >
+
+<!-- versionCode is optional and Android only -->
+
+  <name>FZ-OneClickBook</name>
+
+  <description>
+      Single click booking application - FZ
+  </description>
+
+  <author href="http://stackoverflow.com/users/1468484/sajanyamaha" email="sajanyamaha@yahoo.com">
+      sajansj
+  </author>
+<icon src="icon_8_small.png" />
+    <icon src="icon_8_small.png"   gap:platform="android"    gap:qualifier="ldpi" />
+    <icon src="icon_8_small.png"   gap:platform="android"    gap:qualifier="mdpi" />
+    <icon src="icon_8_small.png"   gap:platform="android"    gap:qualifier="hdpi" />
+    <icon src="icon_8_small.png"  gap:platform="android"    gap:qualifier="xhdpi" />
+
+</widget>
